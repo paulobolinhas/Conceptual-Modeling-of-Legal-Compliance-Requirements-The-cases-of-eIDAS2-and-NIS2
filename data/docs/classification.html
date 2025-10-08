@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ArchiMate Viewpoint Classification</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 900px;
+    background: #f9f9f9;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background-color: #333;
+    color: white;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  .group-cell {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+  }
+</style>
+</head>
+<body>
+<table>
+  <caption>ArchiMate Viewpoint Classification</caption>
+  <thead>
+    <tr>
+      <th>Classification</th>
+      <th>Viewpoint</th>
+      <th>Description</th>
+      <th>Typical Stakeholders</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="group-cell" rowspan="3">Purpose</td>
+      <td>Designing</td>
+      <td>Supports architects and designers in the design process from initial sketch to detailed design. Typically consists of diagrams like UML.</td>
+      <td>Architects, Designers</td>
+      <td>UML diagrams</td>
+    </tr>
+    <tr>
+      <td>Deciding</td>
+      <td>Assists managers in decision-making by offering insights into cross-domain architecture relationships using models, tables, maps, lists, and reports.</td>
+      <td>Managers</td>
+      <td>Cross-reference tables, landscape maps, lists, reports</td>
+    </tr>
+    <tr>
+      <td>Informing</td>
+      <td>Helps inform any stakeholder about enterprise architecture to achieve understanding, commitment, and persuasion. Examples include illustrations and animations.</td>
+      <td>Any stakeholder</td>
+      <td>Illustrations, animations, cartoons, flyers</td>
+    </tr>
+
+    <tr>
+      <td class="group-cell" rowspan="3">Abstraction Level</td>
+      <td>Details</td>
+      <td>Focuses on one layer and one aspect. Stakeholders include software engineers and process owners. Examples: BPMN process diagrams, UML class diagrams.</td>
+      <td>Software engineers, Process owners</td>
+      <td>BPMN process diagrams, UML class diagrams</td>
+    </tr>
+    <tr>
+      <td>Coherence</td>
+      <td>Spans multiple layers or aspects, showing architecture relationships. Stakeholders are operational managers responsible for IT services or business processes.</td>
+      <td>Operational managers</td>
+      <td>Views showing process-uses-system, application-uses-object</td>
+    </tr>
+    <tr>
+      <td>Overview</td>
+      <td>Addresses multiple layers and aspects, targeted at enterprise architects and decision-makers like CEOs and CIOs.</td>
+      <td>Enterprise architects, CEOs, CIOs</td>
+      <td>High-level architecture overviews</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

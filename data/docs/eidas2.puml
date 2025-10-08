@@ -1,0 +1,29 @@
+@startuml
+
+package "eIDAS2 Regulation" {
+
+    class "Trusted Lists" {
+        +Lists of qualified trust service providers published by EU Member States.
+    }
+    
+    class "Trust Service Provider" {
+        +Entities that offer trust services
+    }
+
+    class "Trust Services" {
+        +Services ensuring the security and legal validity of electronic transactions.
+    }
+
+    class "Electronic Signatures" {
+        +Digital signatures that authenticate signers and 
+        maintain document integrity.
+    }
+}
+
+"Trust Services" --> "Trusted Lists" : registered in
+"Trusted Lists" --> "Trust Service Provider" : lists qualified
+"Trust Services" --> "Electronic Signatures" : creation, verification, and validation of
+"Trust Service Provider" --> "Trusted Lists" : published by
+"Trust Service Provider" --> "Trust Services" : provides
+
+@enduml

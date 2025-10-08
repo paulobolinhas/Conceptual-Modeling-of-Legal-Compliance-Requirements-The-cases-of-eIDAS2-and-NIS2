@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>National Cybersecurity Strategy Diagram</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f9fafc;
+    color: #333;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .diagram {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .box {
+    background: white;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.08);
+    margin: 30px auto;
+    position: relative;
+    max-width: 700px;
+    transition: transform 0.3s ease;
+  }
+
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgb(0 0 0 / 0.12);
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #00529b;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00529b;
+    padding-bottom: 6px;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.3rem;
+    margin: 0;
+  }
+
+  ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #4a4a4a;
+  }
+
+  /* Arrow between boxes */
+  .arrow {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    fill: #00529b;
+  }
+
+  /* Container for flow */
+  .flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="diagram flow">
+  <div class="box">
+    <div class="title">National Cybersecurity Strategy (NCS)</div>
+    <p style="font-style: italic; color: #666;">Strategic objectives and policy measures to achieve and maintain a high cybersecurity level.</p>
+  </div>
+
+  <svg class="arrow" viewBox="0 0 24 24">
+    <path d="M12 2v20m0 0l-6-6m6 6l6-6" stroke="#00529b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="box">
+    <div class="title">1. Strategic Objectives & Priorities</div>
+    <ul>
+      <li>Objectives covering sectors in Annexes I & II</li>
+      <li>National cybersecurity goals</li>
+    </ul>
+  </div>
+
+  <svg class="arrow" viewBox="0 0 24 24">
+    <path d="M12 2v20m0 0l-6-6m6 6l6-6" stroke="#00529b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="box">
+    <div class="title">2. Governance Framework</div>
+    <ul>
+      <li>Roles & responsibilities of stakeholders, authorities, CSIRTs, Single Points of Contact</li>
+      <li>Coordination & cooperation at national & sector levels</li>
+    </ul>
+  </div>
+
+  <svg class="arrow" viewBox="0 0 24 24">
+    <path d="M12 2v20m0 0l-6-6m6 6l6-6" stroke="#00529b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="box">
+    <div class="title">3. Risk Assessment & Preparedness</div>
+    <ul>
+      <li>Asset identification & risk assessment</li>
+      <li>Preparedness, response & recovery plans</li>
+      <li>Public-private cooperation</li>
+    </ul>
+  </div>
+
+  <svg class="arrow" viewBox="0 0 24 24">
+    <path d="M12 2v20m0 0l-6-6m6 6l6-6" stroke="#00529b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="box">
+    <div class="title">4. Policy Measures</div>
+    <ul>
+      <li>Supply chain security & vulnerability management</li>
+      <li>Cybersecurity requirements in procurement</li>
+      <li>Education, awareness, training, research & development</li>
+      <li>Information sharing & cyber hygiene</li>
+      <li>Enhancing SME cyber resilience</li>
+    </ul>
+  </div>
+
+  <svg class="arrow" viewBox="0 0 24 24">
+    <path d="M12 2v20m0 0l-6-6m6 6l6-6" stroke="#00529b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="box">
+    <div class="title">5. Monitoring & Updates</div>
+    <ul>
+      <li>Regular reviews at least every 5 years</li>
+      <li>Assessment based on key performance indicators</li>
+      <li>ENISA support for updates</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
